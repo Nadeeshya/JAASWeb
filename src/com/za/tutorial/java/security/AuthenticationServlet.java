@@ -17,7 +17,8 @@ public class AuthenticationServlet extends HttpServlet {
        
     public AuthenticationServlet() {
         super();       
-        System.setProperty("java.security.auth.login.config", "jaastutorial.config");
+        //System.setProperty("java.security.auth.login.config", "jaastutorial.config");
+        System.setProperty("java.security.auth.login.config", "aaa.config");
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
