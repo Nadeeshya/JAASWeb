@@ -21,6 +21,7 @@ public class AuthenticationServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("JAAS Authentication Sample Project");
 		System.out.println("1");
 		response.setContentType("text/html");
 		PrintWriter printWriter = response.getWriter();
